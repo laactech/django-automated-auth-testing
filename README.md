@@ -1,0 +1,1 @@
+# Django Automated Auth Testing
