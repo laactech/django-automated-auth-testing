@@ -1,8 +1,8 @@
 from django.test import client
 from django.urls import URLPattern
 
-from automated_auth_testing.tests.enums import HttpMethod
-from automated_auth_testing.tests.helpers import reverse_url
+from .enums import HttpMethod
+from .helpers import reverse_url
 
 PUBLIC_ENDPOINTS: dict[str, tuple] = {
     "admin": HttpMethod.safe_methods(),
